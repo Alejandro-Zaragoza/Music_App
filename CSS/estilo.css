@@ -1,0 +1,158 @@
+
+@import url(https://fonts.googleapis.com/css?family=Bai+Jamjuree);
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(Slider.css);
+
+#genero {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: #093250;
+    color: white;
+}
+
+.icono_fav {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;  
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Alinear el contenido del div al centro */
+}
+
+#Button-search {
+    text-align: center;
+    margin-left: 5px;
+    width: 100px;
+    height: 25px;
+    
+    border:none;
+    outline: none;
+    background: #093250;
+    color: white;
+    
+}
+
+#Button-search:hover {
+    background: #2B54AB; 
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+body {
+	font-family: 'Bai Jamjuree', sans-serif;
+	background: black;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	background: #193CD8;
+	color: yellow;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.lo:hover{
+border-radius:30%;
+-webkit-border-radius:30%;
+box-shadow: 0px 0px 15px 15px #ec731e;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+	float: left;
+}
+
+section {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+#bienvenidos {
+	text-align: left;
+	color: white;
+}
+
+
+ footer .contenedor {
+     
+     justify-content: center;
+     display: flex;
+     flex-wrap: wrap;
+     
+     padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 28px;
+    color: yellow;
+
+}
+
+.Redes {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.Redes a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.Center {
+    align-content: center;
+}
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+
+    }
+}
+
+@keyframes loader {
+	0%{
+		transform: scale(0);
+		opacity: 1;
+	}
+	100%{
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+.loader::after,
+.loader::before{
+	animation: loader 2s linear infinite;
+	content: '';
+	border: 2px solid #fff;
+	width: 48px;
+	height: 48px;
+	position: absolute;
+}
+.loader::after{
+	opacity: 0;
+	animation-delay: 1s;
+}

@@ -1,0 +1,101 @@
+#LogIn {
+    margin-top: -50px;
+}
+
+/*-------------------------------Cliente Empresa------------------------------*/
+#ClienteEmpresa {
+	margin-top: 50px;
+}
+
+#ClienteEmpresa table{
+	margin: 0 auto;
+}
+
+#ClienteEmpresa td{
+	padding: 18px;
+}
+
+#ClienteEmpresa a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+
+/*-------------------------------Registrarse----------------------------------*/
+#LogIn .contenedor {
+    text-align: left;
+    
+    border: #DDDDDD 2px solid; 
+    border-radius: 5px;
+    padding: 25px;
+    
+    background: #193CD8;
+    width: 60%;
+    height: 100%;
+}
+
+#LogIn h2 {
+    text-align: left;
+}
+
+#LogIn p {
+    text-align: left;
+    padding: 0px 0px 5px 0px; 
+}
+
+#Text-user {
+    text-align: left;
+    margin-left: 5px;
+    
+    border: none;
+    border-bottom: 1px solid #05719C;
+    background: transparent;
+    outline: none;
+    height: 32px;
+    
+    width: 88%;
+}
+
+#Button-login {
+    text-align: center;
+    margin-left: 5px;
+    width: 100px;
+    height: 25px;
+    
+    border:none;
+    outline: none;
+    background: #05719C;
+    color: white;
+    
+}
+
+#Button-login:hover {
+    background: #038FB8; 
+}
+
+@media (min-width:240px) {
+    #LogIn .contenedor {
+        width: 100%;
+    }
+}
+
+@media (min-width:480px) {
+    #LogIn .contenedor {
+        width: 80%;
+    }
+}
+
+@media (min-width:768px) {
+    #LogIn .contenedor {
+        width: 50%;
+    }
+    
+}
+
+@media (min-width:1024px) {
+    #LogIn .contenedor {
+        width: 40%;
+    }
+}
+

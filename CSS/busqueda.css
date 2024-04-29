@@ -1,0 +1,15 @@
+.busqueda {
+    color: white;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.icono_fav {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;  
+    width: 50%;
+    height: 50%;
+}

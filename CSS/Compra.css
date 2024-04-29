@@ -1,0 +1,22 @@
+#InfoCompra .Proceso{
+    margin-top: 60px;
+}
+
+#InfoCompra .contenedor{
+    justify-content: center;
+    text-align: center;
+}
+
+#InfoCompra table{
+    width: 100%;
+}
+
+#InfoCompra td{
+    justify-content: center;
+    width: 33%;
+}
+
+#DatosDeCompra table {
+    border: 5px;
+    border-color: gray;
+}

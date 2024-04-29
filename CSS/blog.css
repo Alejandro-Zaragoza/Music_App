@@ -1,0 +1,29 @@
+
+#blog {
+    text-align: center;
+    color: yellow;
+
+}
+
+.info-blog {
+    margin: 150px;
+}
+
+#blog h3, h4 {
+	text-align: center;
+}
+
+#blog .contenedor{
+	display: flex;
+    align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}	
+
+#blog article {
+	width: 100%;
+    margin: 20px;
+    justify-content: center;
+	max-width: 126px;
+    flex-wrap: wrap;
+}

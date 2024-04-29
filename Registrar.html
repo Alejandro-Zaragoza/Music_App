@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regístrate</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="CSS/LogIn.css">
+    <link rel="stylesheet" href="CSS/fontello.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/Registrar.css">
+    <style>
+        /* Oculta la imagen inicialmente */
+        .slider img {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- menú -->
+        <div class="contenedor">
+            <h1 class="icon-laptop">BeatFusion</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="Index.html"><b>Inicio</b></a>
+                <a href="Productos.html">PlayLists</a>
+                <a href="login.php"><b>Ingresar</b></a>
+                <a href="index.php">Artistas Destacados</a>
+            </nav>
+        </div>
+    </header>
+    <!-- principal -->
+    <main>
+        <br><br><br><br><br>
+        <section id="LogIn">
+            <br><br>
+            <div class="contenedor">
+                <!-- Registro -->
+                <form class="Log" action="registro.php" method="post">
+                    <h2>Regístrate!</h2><br>
+                    <p>Nombre de Artista</p>
+                    <input id="Text-user" type="text" placeholder="Escribe tu nombre artístico como aparece en plataformas" name="nombre" required><br><br>
+                    <label for="genero"><p>Género Musical</p></label>
+                    <select id="opciones" name="genero" required>
+                        <option value="Rock">Rock</option>
+                        <!-- Otras opciones omitidas por brevedad -->
+                    </select><br><br>
+                    <!-- Otras entradas de formulario omitidas por brevedad -->
+                    <div align="center">
+                        <input id="Button-login" type="submit" value="Registrarse">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Script para mostrar el carrusel -->
+    <script>
+        function mostrarCarrusel() {
+            // Obtiene todos los elementos de imagen en el carrusel
+            var imagenes = document.querySelectorAll(".slider img");
+            // Itera sobre las imágenes y las hace visibles
+            imagenes.forEach(function (imagen) {
+                imagen.style.display = "block";
+            });
+        }
+    </script>
+    <!-- Sección de información de programas -->
+    <section id="Info-programas">
+        <div class="Fondo">
+            <br><h2>Para Artistas</h2>
+            <p class="textofinal">
+                Tenemos una lista de géneros musicales con artistas listos para hacer colaboraciones musicales.
+            </p><br>
+        </div>
+    </section>
+    <footer>
+        <div class="contenedor">
+            <p class="copy">BeatFusion</p>
+            <div class="Redes">
+                <a class="icon-facebook" href="#"></a>
+                <a class="icon-twitter" href="#"></a>
+                <a class="icon-youtube-play" href="#"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

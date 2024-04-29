@@ -1,0 +1,78 @@
+
+#Info-programas {
+    text-align: center;
+    color: white;
+    background: #FFF
+}
+
+#Info-programas .Fondo{
+    background: #193CD8;
+    color: yellow;
+}
+
+#Info-programas h2 {
+     text-align: center;
+}
+
+#Tabla1 .Primera {
+    width: 70%;
+}
+
+#Tabla1 .Segunda {
+    width: 30%;
+}
+
+table p {
+    font-size: 17px;
+    text-align: left;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+    align-content: flex-start;
+    overflow: hidden;
+    
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    
+    animation: cambio 10s infinite;
+    animation-direction: alternate-reverse;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0%;}
+    30% {margin-left: 0%;}
+    
+    35% {margin-left: -100%;}
+    60% {margin-left: -100%;}
+    
+    65% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+
+@media (min-width:280px) {
+    table .segunda {
+        columns: 0;
+    }
+}
+
+@media (min-width:480px) {
+ table .segunda {
+        columns: 1;
+    }
+}
+

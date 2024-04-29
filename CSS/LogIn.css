@@ -1,0 +1,165 @@
+#LogIn {
+    margin-top: 50px;
+
+}
+
+
+::placeholder {
+    color: #FFFF00; /* Cambia el color a naranja, puedes ajustarlo a tu preferencia */
+  }
+#LogIn .contenedor {
+    text-align: center;
+    
+    border: #DDDDDD 2px solid; 
+    border-radius: 5px;
+    padding: 25px;
+    
+    background: #193CD8;
+    width: 60%;
+    height: 60%;
+}
+/* amarillo intenso   #FFFF00;    verde intenso: 00FF00*/
+
+#LogIn h2 {
+    text-align: center;
+}
+
+#LogIn p {
+    text-align: center;
+    padding: 0px 0px 5px 0px; 
+}
+
+#Text-user {
+    text-align: center;
+    margin-left: 5px;
+    
+    border: none;
+    border-bottom: 1px solid #05719C;
+    background: transparent;
+    outline: none;
+    height: 32px;
+    
+    width: 88%;
+}
+
+/*--------------------------------------------ButtonLogIn---------------------------------------*/
+
+#Button-login {
+    text-align: center;
+    margin-left: 5px;
+    width: 100px;
+    height: 25px;
+    
+    border:none;
+    outline: none;
+    background: #1DAAD3;
+    color: white;
+    
+}
+
+#Button-login:hover {
+    background: #196BD5; 
+}
+
+/*------------------------------ButtonRegistrar-------------------------------*/
+#Button-reg {
+	float: right;
+    text-align: center;
+    margin-left: 5px;
+    width: 100px;
+    height: 25px;
+	
+    border:none;
+    outline: none;
+    background: #1DAAD3;
+    color: white;
+    
+}
+
+#Button-reg:hover {
+    background: #196BD5; 
+}
+
+#Aun-cuenta {
+	float: center;
+}
+
+
+/*----------------------------------REsponsive--------------------------------*/
+
+
+@media (min-width:240px) {
+    #LogIn .contenedor {
+        width: 100%;
+    }
+}
+
+@media (min-width:480px) {
+    #LogIn .contenedor {
+        width: 80%;
+    }
+}
+
+@media (min-width:768px) {
+    #LogIn .contenedor {
+        width: 50%;
+    }
+    
+}
+
+@media (min-width:1024px) {
+    #LogIn .contenedor {
+        width: 40%;
+    }
+}
+
+input:focus {
+    font-size: 20px; /* Cambia el color a tu preferencia */
+    font-style: bold;
+    color: white;
+}
+
+/* Cambiar el color de fondo del input de manera general */
+input {
+    font-size: 20; /* Cambia el color a tu preferencia */
+    font-style: bold;
+    color: white;
+}
+select:focus {
+    font-size: 20; /* Cambia el color a tu preferencia */
+    font-style: bold;
+    color: black;
+}
+select: {
+    font-size: 20; /* Cambia el color a tu preferencia */
+    font-style: bold;
+    color: black;
+}
+/* Estilo del contenedor del select */
+#opciones-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilo del select */
+#opciones {
+    appearance: none; /* Eliminar estilos nativos del sistema */
+    -webkit-appearance: none; /* Para navegadores basados en WebKit (Chrome, Safari, etc.) */
+    -moz-appearance: none; /* Para navegadores basados en Gecko (Firefox) */
+    padding: 10px; /* Ajusta el espacio alrededor del texto en el select */
+    border: 2px solid black; /* Agrega un borde alrededor del select */
+    background-color: #3677B7; /* Establece el color de fondo del select */
+    color: white; /* Establece el color del texto en el select */
+}
+
+/* Estilo de las opciones dentro del select */
+#opciones option {
+    background-color: #2DA9E3; /* Establece el color de fondo de cada opción */
+    color: white; /* Establece el color del texto de cada opción */
+}
+
+/* Estilo cuando el select está enfocado */
+#opciones:focus {
+    outline: none; /* Elimina el contorno predeterminado al enfocar */
+    border-color: #1DAAD3; /* Cambia el color del borde cuando está enfocado */
+}

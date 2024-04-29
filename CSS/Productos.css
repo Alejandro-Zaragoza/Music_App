@@ -1,0 +1,46 @@
+
+
+#ProductosInicio {
+    text-align: center;
+    background-color: #000000;
+}
+
+.info-blog {
+    margin: 150px;
+}
+
+
+#ProductosInicio h3 {
+	text-align: center;
+    background-color: #056A9C;
+    color: white;
+    padding: 25px;
+    margin-top: -25px;
+}
+
+
+#ProductosInicio article {
+	width: 100%;
+    margin: 80px;
+    justify-content: center;
+	max-width: 126px;
+    flex-wrap: wrap;
+}
+
+#ProductosInicio img {
+    margin-left: -40px;
+}
+
+
+#ProductosInicio img:hover{
+    background-color: rgba(5, 106, 156, 0.5);
+    
+}
+
+#ProductosInicio .InfoFree {
+    padding: 50px;
+    text-align: justify;
+    background-color: #056A9C;
+    color: white;
+}
+

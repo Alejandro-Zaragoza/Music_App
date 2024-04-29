@@ -1,0 +1,122 @@
+#Descripcion h2 {
+    text-align: center;
+}
+
+#Descripcion .contenedor{
+    display: flex;
+    align-content: center;
+	justify-content: center;
+    text-align: justify;
+	flex-wrap: wrap;
+    
+    width: 80%;
+}
+
+
+#imagenes-info {
+	margin-top: 50px;
+	position:  relative;
+}
+
+#imagenes-info img {
+	width: 100%;
+	height: 80%;
+}
+
+#imagenes-info .contenedor {
+	position: absolute;
+	top: 40%;
+	left: 36%;
+	transform: translateX(-35%) translateY(-40%);
+	color: #fff;
+    text-shadow: 3px 2px 2px #020202;
+
+}
+
+#imagenes-info h2 {
+    margin-bottom: 40px;
+	font-size: 30px;
+}
+
+#imagenes-info p {
+    margin-bottom: 15px;
+	font-size: 20px;
+}
+
+#imagenes-info ul {
+    margin-left: px;
+}
+
+#imagenes-info a {
+    text-decoration: none;
+    color: #E9E9E9;
+}
+
+#imagenes-info a:hover {
+    color: #038FB8;
+}
+
+#Empleados {
+    background: #05719C;
+}
+
+#Empleados h3 {
+    padding: 25px;
+    text-align: center;
+    color: white;
+        
+    border-bottom: 1px solid white;
+}
+
+#Empleados h4 {
+
+    color: white;
+        
+    border-top: 1px solid white;
+}
+
+.info-empleados {
+    margin: 25px;
+}
+
+#Empleados .contenedor{
+	display: flex;
+    align-content: center;
+	justify-content: center;
+    text-align: center;
+	flex-wrap: wrap;
+}	
+
+#Empleados article {
+	width: 100%;
+    margin: 20px;
+    justify-content: center;
+	max-width: 126px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:640px) {
+    
+    
+    #imagenes-info .contenedor {
+        top: 35%;
+    }
+    
+    #imagenes-info h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    #imagenes-info p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #imagenes-info a {
+        font-size: 15px;
+        margin: 5px;
+    }
+    
+    #imagenes-info img {
+        height: 350px;
+    }
+}
